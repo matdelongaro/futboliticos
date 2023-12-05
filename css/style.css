@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    gap:5px;
+    margin:14px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "hero hero hero"
+    "section-1 section-1 section-1"
+    "section-2 section-2 section-2"
+    "footer footer footer"
+    ;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+.hero{
+    background-color: white;
+    color: black;
+}
+.section-1{
+    background-color: gray;
+    color: black;
+}
+.section-2{
+    background-color: white;
+    color: black;
+}
+.footer{
+    background-color: black;
+    color: white;    
+}
